@@ -291,11 +291,10 @@ main {
 
 .modal img {
   width: 100%;
-  max-height: 380px;
-  object-fit: cover;
+  max-height: 65vh;
+  object-fit: contain;
   display: block;
-  border-radius: var(--radius) var(--radius) 0 0;
-  background: var(--surface);
+  background: #1e1e1e;
 }
 
 .modal-body {
