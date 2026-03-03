@@ -34,6 +34,14 @@
   <div class="grid" id="grid"></div>
 </main>
 
+<div class="modal-backdrop" id="backdrop">
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+    <img id="modal-img" src="" alt="">
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
 <script>
   const FACT_SECTIONS = [
     ["Size & Shape",    "size_shape"],
@@ -45,22 +53,46 @@
 
   let allBirds = [];
 
-  function buildCard(bird) {
-    const facts = FACT_SECTIONS.map(([label, key]) => `
+  function buildFactsHTML(facts) {
+    return FACT_SECTIONS.map(([label, key]) => `
       <div class="fact">
         <div class="fact-label">${label}</div>
-        <div class="fact-text">${bird.facts[key] || ""}</div>
+        <div class="fact-text">${facts[key] || ""}</div>
       </div>`).join("");
+  }
 
+  function buildCard(bird) {
     return `
-      <article class="card">
+      <article class="card" data-name="${bird.name}">
         <img src="${bird.photo}" alt="${bird.name}" loading="lazy">
         <div class="card-body">
           <h2 class="bird-name">${bird.name}</h2>
-          ${facts}
+          ${buildFactsHTML(bird.facts)}
         </div>
       </article>`;
   }
+
+  // Modal
+  const backdrop   = document.getElementById("backdrop");
+  const modalImg   = document.getElementById("modal-img");
+  const modalBody  = document.getElementById("modal-body");
+
+  function openModal(bird) {
+    modalImg.src = bird.photo;
+    modalImg.alt = bird.name;
+    modalBody.innerHTML = `<h2 class="bird-name">${bird.name}</h2>${buildFactsHTML(bird.facts)}`;
+    backdrop.classList.add("open");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeModal() {
+    backdrop.classList.remove("open");
+    document.body.style.overflow = "";
+  }
+
+  document.getElementById("modal-close").addEventListener("click", closeModal);
+  backdrop.addEventListener("click", e => { if (e.target === backdrop) closeModal(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
 
   function render(birds) {
     const grid  = document.getElementById("grid");
@@ -72,8 +104,15 @@
       return;
     }
 
-    grid.innerHTML  = birds.map(buildCard).join("");
+    grid.innerHTML = birds.map(buildCard).join("");
     count.textContent = `${birds.length} bird${birds.length !== 1 ? "s" : ""}`;
+
+    grid.querySelectorAll(".card").forEach(card => {
+      card.addEventListener("click", () => {
+        const bird = allBirds.find(b => b.name === card.dataset.name);
+        if (bird) openModal(bird);
+      });
+    });
   }
 
   document.getElementById("search").addEventListener("input", e => {

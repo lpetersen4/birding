@@ -36,9 +36,8 @@
       document.getElementById("subtitle").textContent =
         `${sorted.length} species observed`;
 
-      document.getElementById("list").innerHTML = sorted.map((bird, i) => `
+      document.getElementById("list").innerHTML = sorted.map(bird => `
         <li>
-          <span class="list-num">${i + 1}</span>
           <span class="list-name">${bird.name}</span>
         </li>`).join("");
     });
