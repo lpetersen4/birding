@@ -2,6 +2,8 @@
 
 A personal birding project with two outputs: Anki flashcards for learning bird identification, and a GitHub Pages site for browsing my life list.
 
+**https://lpetersen4.github.io/birding/**
+
 ## Site
 
 **[Bird Directory](index.html)** — searchable grid of every bird I've seen, with a photo and field guide facts for each one.
