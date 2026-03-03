@@ -1,0 +1,189 @@
+[
+  {
+    "name": "Bald Eagle",
+    "photo": "bird_photos/Bald_Eagle.jpg",
+    "facts": {
+      "size_shape": "One of North America's largest raptors, 28-38 inches long with a massive 6-8 foot wingspan. Broad flat wings, a large hooked yellow bill, and powerful talons.",
+      "color_pattern": "Adults have a striking white head and tail with a dark brown body. Juveniles are mottled brown and white, not gaining the full white head until around age 5.",
+      "where_to_find": "Found throughout North America near large bodies of open water \u2014 rivers, lakes, reservoirs, and coastlines. Most abundant in Alaska, Canada, and the Pacific Northwest.",
+      "what_they_eat": "Primarily fish snatched live from the water, plus waterfowl, small mammals, and carrion.",
+      "behavior": "Often seen soaring high on flat wings or perched in tall trees overlooking water. Famous for pirating food from Ospreys mid-air. Builds enormous stick nests up to 10 feet wide, reused for decades."
+    }
+  },
+  {
+    "name": "Black Capped Chickadee",
+    "photo": "bird_photos/Black_Capped_Chickadee.jpg",
+    "facts": {
+      "size_shape": "Tiny, round songbird about 5 inches long with a plump body, big round head, short neck, and a long narrow tail.",
+      "color_pattern": "Black cap and bib, white cheeks, soft gray back and wings, and buffy sides. The contrasting black-and-white head pattern is unmistakable.",
+      "where_to_find": "Found year-round across northern North America from Alaska to the northeastern US and along the Rockies. Thrives in forests, parks, and suburban yards.",
+      "what_they_eat": "Seeds, berries, and insects. A regular at backyard feeders, especially for sunflower seeds and suet.",
+      "behavior": "Famously curious and tame \u2014 will sometimes eat from a hand. Known for its cheerful 'chick-a-dee-dee-dee' call; more 'dee' notes signal greater alarm. Caches food to retrieve in winter."
+    }
+  },
+  {
+    "name": "Common Canada Goose",
+    "photo": "bird_photos/Common_Canada_Goose.jpg",
+    "facts": {
+      "size_shape": "A large goose, 30-43 inches long with a wingspan up to 5.5 feet. Long neck, large body, and a broad flat bill.",
+      "color_pattern": "Black head and neck with a distinctive white chin strap patch. Brown back and wings with a pale gray-brown breast and white undertail.",
+      "where_to_find": "Found throughout North America near water \u2014 parks, golf courses, lakes, rivers, and farmland. A year-round resident across much of the US.",
+      "what_they_eat": "Grasses, grains, aquatic plants, and occasionally berries. Grazes heavily on lawns and farm fields.",
+      "behavior": "Flies in characteristic V-formations while honking loudly. Pairs mate for life and will hiss and charge aggressively at intruders near a nest."
+    }
+  },
+  {
+    "name": "Common Goldeneye Duck",
+    "photo": "bird_photos/Common_Goldeneye_Duck.jpg",
+    "facts": {
+      "size_shape": "A medium-sized diving duck, 15-20 inches long with a large, rounded puffy head and a short bill. Compact and stocky on the water.",
+      "color_pattern": "Males have an iridescent green-black head with a round white spot near the bill and a bold black-and-white body. Females have a chocolate-brown head, gray body, and yellow-tipped bill.",
+      "where_to_find": "Breeds in boreal forests of Canada and Alaska near lakes and rivers. Winters across much of the US on coastal bays, rivers, and lakes.",
+      "what_they_eat": "Aquatic invertebrates, crustaceans, and small fish, caught by diving.",
+      "behavior": "Named for its bright golden-yellow eye. Males perform an elaborate head-throwing courtship display in winter. Wings produce a distinctive loud whistling sound in flight."
+    }
+  },
+  {
+    "name": "Common Merganser",
+    "photo": "bird_photos/Common_Merganser.jpg",
+    "facts": {
+      "size_shape": "A large, slender diving duck, 22-27 inches long with a long body, narrow serrated bill, and a distinctive crested head. Sits low in the water.",
+      "color_pattern": "Males have a glossy dark green head, bright red serrated bill, white body, and black back. Females have a rusty-red crested head, gray body, and a clean white chin patch.",
+      "where_to_find": "Found across North America on clear freshwater rivers, lakes, and reservoirs. Breeds in forested areas near water; winters on open inland waters and along coasts.",
+      "what_they_eat": "Primarily fish, caught by diving and chasing underwater. The serrated bill helps grip slippery prey.",
+      "behavior": "Often seen diving repeatedly in fast-moving rivers. Females lead large broods of ducklings, which sometimes pile onto her back. Flies low and fast over water."
+    }
+  },
+  {
+    "name": "Gadwall Duck",
+    "photo": "bird_photos/Gadwall_Duck.jpg",
+    "facts": {
+      "size_shape": "A medium-sized dabbling duck, 18-22 inches long. Slimmer and more elegant than a Mallard with a steep forehead and thin bill.",
+      "color_pattern": "Males are intricately patterned gray and brown with a black rear end and a white wing patch visible in flight. Females are mottled brown like a female Mallard but have an orange-sided bill.",
+      "where_to_find": "Found across North America, breeding in prairie wetlands and wintering along both coasts and in the south. Prefers freshwater marshes and ponds with dense vegetation.",
+      "what_they_eat": "Mostly aquatic plants, seeds, and algae. Occasionally steals food from diving ducks.",
+      "behavior": "A quiet, understated duck often overlooked among more colorful species. The white wing patch is the key field mark to look for in flight or on the water."
+    }
+  },
+  {
+    "name": "Green Winged Teal",
+    "photo": "bird_photos/Green_Winged_Teal.jpg",
+    "facts": {
+      "size_shape": "The smallest dabbling duck in North America at only 12-15 inches long. Very compact and fast-flying with rapid wingbeats.",
+      "color_pattern": "Males have a chestnut head with a broad iridescent green eye patch, finely barred gray body, and a bright yellow patch under the tail. Females are mottled brown similar to other female dabbling ducks.",
+      "where_to_find": "Breeds across Canada and Alaska; winters across the southern US, both coasts, and into Central America on marshes and shallow wetlands.",
+      "what_they_eat": "Seeds, aquatic plants, and invertebrates found in shallow water and mudflats.",
+      "behavior": "Flies in tight, fast-wheeling flocks that twist and turn in unison. Males give a distinctive high-pitched whistling 'kreeet' call."
+    }
+  },
+  {
+    "name": "Hooded Merganser",
+    "photo": "bird_photos/Hooded_Merganser.jpg",
+    "facts": {
+      "size_shape": "A small diving duck, 15-19 inches long with a slim body and a dramatic fan-shaped crest that can be raised or lowered. Thin, serrated bill.",
+      "color_pattern": "Males have a striking black-and-white fan crest, black head, white breast patches, and chestnut sides. Females are warm brown with a shaggy rusty-orange crest.",
+      "where_to_find": "Found across North America in wooded swamps, rivers, ponds, and estuaries. Breeds in tree cavities near water; winters across much of the US.",
+      "what_they_eat": "Small fish, aquatic invertebrates, and crayfish, caught by diving with excellent underwater vision.",
+      "behavior": "Males raise and lower their spectacular white crest during courtship displays. Nests in tree cavities, sometimes sharing with Wood Ducks. One of the most visually striking ducks in North America."
+    }
+  },
+  {
+    "name": "House Finch",
+    "photo": "bird_photos/House_Finch.jpg",
+    "facts": {
+      "size_shape": "A small, chunky songbird about 5-6 inches long with a short thick curved bill and a slightly notched tail.",
+      "color_pattern": "Males have a bright red head, breast, and rump with brown-streaked wings and back. Females are plain brown with heavy streaking on the breast and belly.",
+      "where_to_find": "Originally from the western US, now found across all of North America. Thrives in urban and suburban areas, farms, and forest edges. A very common backyard bird.",
+      "what_they_eat": "Almost entirely seeds and buds. A frequent visitor to backyard feeders, especially for nyjer and sunflower seeds.",
+      "behavior": "Sings a long, cheerful, rambling warble year-round. Often seen in flocks at feeders. The reddest males are preferred by females \u2014 redness reflects diet quality."
+    }
+  },
+  {
+    "name": "Northern Flicker",
+    "photo": "bird_photos/Northern_Flicker.jpg",
+    "facts": {
+      "size_shape": "A large woodpecker, 11-14 inches long with a long bill and round head. Larger than a robin.",
+      "color_pattern": "Brown barred back, spotted breast with a black bib, red patch on the back of the head, and a white rump patch visible in flight. Eastern birds have yellow wing linings; western birds have red.",
+      "where_to_find": "Found across North America in open woodlands, forest edges, parks, and suburbs. One of the most widespread woodpeckers on the continent.",
+      "what_they_eat": "Ants and beetles are the primary diet, foraged mostly on the ground \u2014 unusual for a woodpecker.",
+      "behavior": "Frequently seen foraging on the ground, using its long sticky tongue to extract ants. Calls loudly with a repeated 'wicka-wicka-wicka' and drums on metal gutters to amplify territorial signals."
+    }
+  },
+  {
+    "name": "Red Wing Blackbird",
+    "photo": "bird_photos/Red_Wing_Blackbird.jpg",
+    "facts": {
+      "size_shape": "Medium-sized songbird about 8-9 inches long (similar to a robin). Stocky build with a short, pointed bill and a slightly rounded tail.",
+      "color_pattern": "Males are glossy jet black with bold red-and-yellow shoulder patches (epaulets) that flash during display. Females are streaky brown overall, resembling a large sparrow.",
+      "where_to_find": "One of the most abundant birds in North America, found from Alaska to Central America. Thrives in marshes, wetlands, meadows, and along roadsides.",
+      "what_they_eat": "Mostly seeds and grains, supplemented with insects and berries during summer.",
+      "behavior": "Males are fiercely territorial and perch conspicuously on cattails or fences, puffing up their shoulder patches and singing a raspy 'konk-la-ree' call. Form massive flocks of millions in winter."
+    }
+  },
+  {
+    "name": "Ring Billed Gull",
+    "photo": "bird_photos/Ring_Billed_Gull.jpg",
+    "facts": {
+      "size_shape": "A medium-sized gull, 17-21 inches long with a wingspan of about 4 feet. Slender build with a rounded head and medium-length bill.",
+      "color_pattern": "Clean white head and body, pale gray back and wings, black wingtips with white spots, yellow legs, and a distinctive black ring around the yellow bill.",
+      "where_to_find": "The most common gull in North America, found year-round across most of the continent near lakes, rivers, parking lots, landfills, and coasts.",
+      "what_they_eat": "Highly opportunistic \u2014 eats fish, insects, earthworms, garbage, and food scraps. Often follows farm equipment for disturbed insects.",
+      "behavior": "Highly adaptable and bold around humans; commonly seen scavenging in parking lots. Migrates in large flocks along major river corridors."
+    }
+  },
+  {
+    "name": "Ring Necked Duck",
+    "photo": "bird_photos/Ring_Necked_Duck.jpg",
+    "facts": {
+      "size_shape": "A medium-sized diving duck, 14-18 inches long with a peaked, angular head distinctive in profile and a compact body.",
+      "color_pattern": "Males have a black back and breast, gray sides with a white shoulder stripe, and a black head with purple iridescence. Females are brown with a white eye ring and white ring near the bill tip.",
+      "where_to_find": "Breeds in northern boreal lakes and bogs; winters across the southern US, both coasts, and into Central America on freshwater lakes and reservoirs.",
+      "what_they_eat": "Aquatic plants, seeds, and invertebrates, obtained by diving.",
+      "behavior": "Despite the name, the chestnut neck ring is almost invisible in the field \u2014 look instead for the white ring on the bill and the peaked head shape."
+    }
+  },
+  {
+    "name": "Robin",
+    "photo": "bird_photos/Robin.jpg",
+    "facts": {
+      "size_shape": "A familiar medium-sized songbird, 9-11 inches long with a plump body, long legs, and a medium-length yellow bill. One of the larger North American thrushes.",
+      "color_pattern": "Dark gray-brown back and wings with a warm orange-red breast. White eye rings, white-streaked throat, and a white belly patch.",
+      "where_to_find": "Found across North America from Alaska to Mexico in nearly every habitat \u2014 lawns, parks, forests, and suburbs. One of the first birds to return in spring.",
+      "what_they_eat": "Earthworms pulled from the ground, plus berries and fruit in fall and winter.",
+      "behavior": "Famous for running across lawns and cocking its head to listen for earthworms. Sings a rich, caroling song at dawn and dusk. Forms large flocks in winter to feed on berry-producing trees."
+    }
+  },
+  {
+    "name": "Shoveler",
+    "photo": "bird_photos/shoveler.jpg",
+    "facts": {
+      "size_shape": "A medium-sized dabbling duck, about 17-20 inches long, with a uniquely large spatula-shaped bill that is wider at the tip than the base.",
+      "color_pattern": "Males have an iridescent green head, white breast, chestnut sides, and a bright blue shoulder patch visible in flight. Females are mottled brown with the same distinctive oversized bill.",
+      "where_to_find": "Found across North America, breeding in prairie wetlands and wintering along both coasts, in the south, and into Central America. Favors shallow, muddy marshes and ponds.",
+      "what_they_eat": "Filters tiny invertebrates, seeds, and aquatic plants from the water using comb-like structures along the edges of its bill.",
+      "behavior": "Often swims in tight circles with other shovelers to stir up food from the bottom. The distinctive shovel-shaped bill makes it one of the easiest ducks to identify at a glance."
+    }
+  },
+  {
+    "name": "Song Sparrow",
+    "photo": "bird_photos/Song_Sparrow.jpg",
+    "facts": {
+      "size_shape": "A medium-sized sparrow, 4.7-6.7 inches long with a round head and a long rounded tail that it pumps up and down in flight.",
+      "color_pattern": "Brown and white with heavy brown streaking on the breast that converges into a central breast spot. Brown and gray face with a gray eyebrow stripe.",
+      "where_to_find": "One of the most widespread birds in North America, found from Alaska to Mexico in shrubby areas near water, marshes, roadsides, and gardens.",
+      "what_they_eat": "Seeds, insects, and berries. Forages on the ground or in low vegetation.",
+      "behavior": "Males sing persistently from exposed perches with a complex melodious song beginning with three repeated notes. Among the first sparrows to sing in spring."
+    }
+  },
+  {
+    "name": "Widgeon",
+    "photo": "bird_photos/Widgeon.jpg",
+    "facts": {
+      "size_shape": "Medium-sized dabbling duck, about 18-23 inches long with a round head and short bill that give it a distinctive compact look compared to other ducks.",
+      "color_pattern": "Males have a white forehead patch, iridescent green streak behind the eye, pinkish-brown breast, and white belly. Females are mottled warm brown with a grayish head.",
+      "where_to_find": "Breeds in the prairies and parklands of western Canada and the northern US. Winters widely across both coasts, the South, and into Central America on marshes, lakes, and flooded fields.",
+      "what_they_eat": "Mainly aquatic plants and grasses. Frequently steals food from diving ducks and coots surfacing with vegetation.",
+      "behavior": "Usually seen in tight flocks on open water. Males give a distinctive three-note whistling call. Often grazes on land like a goose, unlike most ducks."
+    }
+  }
+]

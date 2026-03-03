@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">Birds</a>
+    <nav>
+      <a href="index.html">Directory</a>
+      <a href="life-list.html" class="active">Life List</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-header">
+    <h1 class="page-title">Life List</h1>
+    <p class="page-subtitle" id="subtitle"></p>
+  </div>
+
+  <ol class="life-list" id="list"></ol>
+</main>
+
+<script>
+  fetch("site_data.json")
+    .then(r => r.json())
+    .then(birds => {
+      const sorted = [...birds].sort((a, b) => a.name.localeCompare(b.name));
+
+      document.getElementById("subtitle").textContent =
+        `${sorted.length} species observed`;
+
+      document.getElementById("list").innerHTML = sorted.map((bird, i) => `
+        <li>
+          <span class="list-num">${i + 1}</span>
+          <span class="list-name">${bird.name}</span>
+        </li>`).join("");
+    });
+</script>
+
+</body>
+</html>

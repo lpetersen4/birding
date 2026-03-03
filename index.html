@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bird Directory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">Birds</a>
+    <nav>
+      <a href="index.html" class="active">Directory</a>
+      <a href="life-list.html">Life List</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="search-wrap">
+    <input
+      type="search"
+      id="search"
+      class="search-input"
+      placeholder="Search birds..."
+      autocomplete="off"
+      spellcheck="false"
+    >
+    <p class="count-label" id="count"></p>
+  </div>
+
+  <div class="grid" id="grid"></div>
+</main>
+
+<script>
+  const FACT_SECTIONS = [
+    ["Size & Shape",    "size_shape"],
+    ["Color & Pattern", "color_pattern"],
+    ["Where to Find",   "where_to_find"],
+    ["What They Eat",   "what_they_eat"],
+    ["Behavior",        "behavior"],
+  ];
+
+  let allBirds = [];
+
+  function buildCard(bird) {
+    const facts = FACT_SECTIONS.map(([label, key]) => `
+      <div class="fact">
+        <div class="fact-label">${label}</div>
+        <div class="fact-text">${bird.facts[key] || ""}</div>
+      </div>`).join("");
+
+    return `
+      <article class="card">
+        <img src="${bird.photo}" alt="${bird.name}" loading="lazy">
+        <div class="card-body">
+          <h2 class="bird-name">${bird.name}</h2>
+          ${facts}
+        </div>
+      </article>`;
+  }
+
+  function render(birds) {
+    const grid  = document.getElementById("grid");
+    const count = document.getElementById("count");
+
+    if (birds.length === 0) {
+      grid.innerHTML = `<div class="empty">No birds match your search.</div>`;
+      count.textContent = "";
+      return;
+    }
+
+    grid.innerHTML  = birds.map(buildCard).join("");
+    count.textContent = `${birds.length} bird${birds.length !== 1 ? "s" : ""}`;
+  }
+
+  document.getElementById("search").addEventListener("input", e => {
+    const q = e.target.value.toLowerCase().trim();
+    render(q ? allBirds.filter(b => b.name.toLowerCase().includes(q)) : allBirds);
+  });
+
+  fetch("site_data.json")
+    .then(r => r.json())
+    .then(data => {
+      allBirds = data;
+      render(allBirds);
+    });
+</script>
+
+</body>
+</html>
