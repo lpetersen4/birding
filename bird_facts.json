@@ -111,6 +111,20 @@
     "what_they_eat": "Filters tiny invertebrates, seeds, and aquatic plants from the water using comb-like structures along the edges of its bill.",
     "behavior": "Often swims in tight circles with other shovelers to stir up food from the bottom. The distinctive shovel-shaped bill makes it one of the easiest ducks to identify at a glance."
   },
+  "Spotted Towhee": {
+    "size_shape": "A large sparrow, 6.7-8.3 inches long with a long rounded tail, sturdy bill, and chunky body — closer in size to a robin than a typical sparrow.",
+    "color_pattern": "Males have a jet-black head, back, and throat; white spots on the wings; rufous-orange sides; and a white belly. Females are similar but with warm brown replacing the black.",
+    "where_to_find": "Found across western North America in dense scrub, chaparral, forest edges, thickets, and brushy backyards. Year-round resident along the Pacific Coast.",
+    "what_they_eat": "Seeds, berries, and insects. Forages almost entirely on the ground.",
+    "behavior": "Uses a distinctive double-scratch technique — jumping forward and back with both feet to flip aside leaf litter and uncover food. Males sing a buzzy 'drink-your-teeeea' song from exposed perches."
+  },
+  "Wood Duck": {
+    "size_shape": "A medium-sized duck, 18.5-21 inches long with a boxy crested head, broad wings, and a long square tail. Compact and agile enough to fly through forests.",
+    "color_pattern": "Males are spectacularly patterned with an iridescent green-and-purple crested head, red eye, chestnut breast with white spots, tan sides, and intricate black-and-white face markings. Females are gray-brown with a distinctive white teardrop eye ring.",
+    "where_to_find": "Found across the eastern US and Pacific Coast in wooded swamps, rivers, ponds, and streams bordered by forest. Year-round in much of its range.",
+    "what_they_eat": "Acorns, seeds, berries, aquatic plants, and insects. One of the few ducks that feeds heavily on land under trees.",
+    "behavior": "Nests in tree cavities, sometimes high above the ground. Ducklings leap from the nest hole within a day of hatching — sometimes from 50 feet up — and bounce safely to the ground. Often perches on logs and branches over water."
+  },
   "Widgeon": {
     "size_shape": "Medium-sized dabbling duck, about 18-23 inches long with a round head and short bill that give it a distinctive compact look compared to other ducks.",
     "color_pattern": "Males have a white forehead patch, iridescent green streak behind the eye, pinkish-brown breast, and white belly. Females are mottled warm brown with a grayish head.",

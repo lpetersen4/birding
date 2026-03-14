@@ -176,6 +176,17 @@
     }
   },
   {
+    "name": "Spotted Towhee",
+    "photo": "bird_photos/Spotted_Towhee.jpg",
+    "facts": {
+      "size_shape": "A large sparrow, 6.7-8.3 inches long with a long rounded tail, sturdy bill, and chunky body \u2014 closer in size to a robin than a typical sparrow.",
+      "color_pattern": "Males have a jet-black head, back, and throat; white spots on the wings; rufous-orange sides; and a white belly. Females are similar but with warm brown replacing the black.",
+      "where_to_find": "Found across western North America in dense scrub, chaparral, forest edges, thickets, and brushy backyards. Year-round resident along the Pacific Coast.",
+      "what_they_eat": "Seeds, berries, and insects. Forages almost entirely on the ground.",
+      "behavior": "Uses a distinctive double-scratch technique \u2014 jumping forward and back with both feet to flip aside leaf litter and uncover food. Males sing a buzzy 'drink-your-teeeea' song from exposed perches."
+    }
+  },
+  {
     "name": "Widgeon",
     "photo": "bird_photos/Widgeon.jpg",
     "facts": {
@@ -184,6 +195,17 @@
       "where_to_find": "Breeds in the prairies and parklands of western Canada and the northern US. Winters widely across both coasts, the South, and into Central America on marshes, lakes, and flooded fields.",
       "what_they_eat": "Mainly aquatic plants and grasses. Frequently steals food from diving ducks and coots surfacing with vegetation.",
       "behavior": "Usually seen in tight flocks on open water. Males give a distinctive three-note whistling call. Often grazes on land like a goose, unlike most ducks."
+    }
+  },
+  {
+    "name": "Wood Duck",
+    "photo": "bird_photos/Wood_Duck.jpg",
+    "facts": {
+      "size_shape": "A medium-sized duck, 18.5-21 inches long with a boxy crested head, broad wings, and a long square tail. Compact and agile enough to fly through forests.",
+      "color_pattern": "Males are spectacularly patterned with an iridescent green-and-purple crested head, red eye, chestnut breast with white spots, tan sides, and intricate black-and-white face markings. Females are gray-brown with a distinctive white teardrop eye ring.",
+      "where_to_find": "Found across the eastern US and Pacific Coast in wooded swamps, rivers, ponds, and streams bordered by forest. Year-round in much of its range.",
+      "what_they_eat": "Acorns, seeds, berries, aquatic plants, and insects. One of the few ducks that feeds heavily on land under trees.",
+      "behavior": "Nests in tree cavities, sometimes high above the ground. Ducklings leap from the nest hole within a day of hatching \u2014 sometimes from 50 feet up \u2014 and bounce safely to the ground. Often perches on logs and branches over water."
     }
   }
 ]
